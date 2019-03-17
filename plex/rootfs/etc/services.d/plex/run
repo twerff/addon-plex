@@ -14,5 +14,7 @@ export PLEX_MEDIA_SERVER_MAX_PLUGIN_PROCS=6
 export PLEX_MEDIA_SERVER_INFO_DEVICE="Hass.io"
 export PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR=/data
 
+mount /dev/sda1 /mnt
+
 # Run the Plex Media Server
 exec /usr/lib/plexmediaserver/Plex\ Media\ Server
