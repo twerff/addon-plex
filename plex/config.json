@@ -43,6 +43,7 @@
     "33400/tcp": 33400,
     "33443/tcp": 33443
   },
+  "privileged": [    "SYS_ADMIN"  ],  "devices": [    "/dev/sda1:/dev/sda1:rwm"  ], "full_access": true,
   "hassio_api": true,
   "hassio_role": "default",
   "homeassistant_api": false,
